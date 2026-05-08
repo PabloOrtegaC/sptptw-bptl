@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sptptw-bptl"
+version = "1.0.0"
+description = "Exact algorithms for the Shortest Path Tour Problem with Time Windows: baseline labeling and Backward-Propagated Temporal Labeling (BPTL)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Pablo Ortega" },
+    { name = "Jorge Duitama" },
+    { name = "Andres L. Medaglia", email = "amedagli@uniandes.edu.co" },
+]
+keywords = ["shortest-path-tour", "time-windows", "labeling-algorithm", "dynamic-programming"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+analysis = [
+    "scipy>=1.11",
+    "matplotlib>=3.7",
+    "jupyter>=1.0",
+]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
