@@ -213,23 +213,36 @@ on which Tables 2 and 3 were computed.
 ## Citation
 
 ```bibtex
-@article{ortega2026sptptw,
-  title   = {Improved Time Bounds for Exact Algorithms of the Shortest Path
-             Tour Problem with Time Windows},
-  author  = {Ortega, Pablo and Duitama, Jorge and Medaglia, Andr{\'e}s L.},
-  journal = {},
-  year    = {},
-  doi     = {}
-}
+@techreport{ortega2026sptptw, title = {Improved Time Bounds for Exact Algorithms of the Shortest Path Tour Problem with Time Windows}, author = {Ortega, Pablo and Duitama, Jorge and Medaglia, Andr{\'e}s L.}, institution = {Universidad de los Andes}, year = {2026},number = {COPA Technical Report No. 2026-0010}}
+
 ```
 
 If you also use the benchmark instances, please additionally cite:
 
-- Festa, P., Guerriero, F., Napoletano, A. (2013). *Solving the Shortest
-  Path Tour Problem.*
-- Di Puglia Pugliese, L., Guerriero, F., Macrina, G. (2020). *The shortest
-  path tour problem with time windows.*
 
+```bibtex
+
+@article{FESTA2013464,
+  author          = "Festa, P. and Guerriero, F. and Lagan\`{a}, D. and Musmanno, R.",
+  title           = "Solving the shortest path tour problem",
+  journal         = "Eur. J. Oper. Res.",
+  volume          = "230",
+  number          = "3",
+  pages           = "464--474",
+  year            = "2013",
+  doi             = "10.1016/j.ejor.2013.04.029"
+}
+
+@article{DiPugliaPugliese2020,
+  author          = "Di Puglia Pugliese, L. and Ferone, D. and Festa, P. and Guerriero, F.",
+  title           = "Shortest path tour problem with time windows",
+  journal         = "Eur. J. Oper. Res.",
+  volume          = "282",
+  number          = "1",
+  pages           = "334--344",
+  year            = "2020",
+  doi             = "10.1016/j.ejor.2019.08.052"
+```
 ---
 
 ## License
