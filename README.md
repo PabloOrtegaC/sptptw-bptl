@@ -218,7 +218,8 @@ on which Tables 2 and 3 were computed.
   author = {Ortega, Pablo and Duitama, Jorge and Medaglia, Andrés L.}, 
   institution = {Universidad de los Andes}, 
   year = {2026},
-  number = {COPA Technical Report No. 2026-0010}}
+  number = {COPA Technical Report No. 2026-0010}
+  }
 
 ```
 
@@ -247,6 +248,7 @@ If you also use the benchmark instances, please additionally cite:
   pages           = "334--344",
   year            = "2020",
   doi             = "10.1016/j.ejor.2019.08.052"
+}
 ```
 ---
 
