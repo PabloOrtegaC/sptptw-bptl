@@ -229,7 +229,7 @@ If you also use the benchmark instances, please additionally cite:
 ```bibtex
 
 @article{FESTA2013464,
-  author          = "Festa, P. and Guerriero, F. and Lagan\`{a}, D. and Musmanno, R.",
+  author          = "Festa, P. and Guerriero, F. and Lagana, D. and Musmanno, R.",
   title           = "Solving the shortest path tour problem",
   journal         = "Eur. J. Oper. Res.",
   volume          = "230",
