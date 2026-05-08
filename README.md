@@ -182,7 +182,7 @@ verifies the reported cost. Every row should come back `OK`.
 ## How the corrected set was produced
 
 The corrected instances in `instances/corrected/` were derived from the
-original Di Puglia Pugliese et al. (2020) dataset (`instances/original/`)
+original Di Puglia Pugliese et al. (2020) (https://drive.google.com/drive/folders/1kocgLjfMHst6BiC_9WBBlOKh8PXi2Ver) dataset (`instances/original/`)
 by applying three precondition repairs, documented in detail in
 [`instances/README.md`](instances/README.md): forcing
 `T_1 = {source}`, forcing `T_N = {destination}`, and resolving subset
