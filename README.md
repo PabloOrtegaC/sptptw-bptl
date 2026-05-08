@@ -213,7 +213,12 @@ on which Tables 2 and 3 were computed.
 ## Citation
 
 ```bibtex
-@techreport{ortega2026sptptw, title = {Improved Time Bounds for Exact Algorithms of the Shortest Path Tour Problem with Time Windows}, author = {Ortega, Pablo and Duitama, Jorge and Medaglia, Andr{\'e}s L.}, institution = {Universidad de los Andes}, year = {2026},number = {COPA Technical Report No. 2026-0010}}
+@techreport{ortega2026sptptw, 
+  title = {Improved Time Bounds for Exact Algorithms of the Shortest Path Tour Problem with Time Windows}, 
+  author = {Ortega, Pablo and Duitama, Jorge and Medaglia, Andrés L.}, 
+  institution = {Universidad de los Andes}, 
+  year = {2026},
+  number = {COPA Technical Report No. 2026-0010}}
 
 ```
 
